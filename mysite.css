@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(228, 177, 205);
+  }
+
+.circlexa {
+    border-radius: 50%;
+  }
+  
+  
+.circlexa {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    margin-top: 60px;
+  }
+  .circlexb {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    margin-top: 60px;
+    width: 100%;
+  height: auto;
+  }
+
+  #submit {
+    background-color: rgb(128, 211, 170);
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  #submit:hover {
+    border: none;
+    background: rgb(255, 200, 21);
+    box-shadow: 0px 0px 1px #777;
+  }
+div button{
+  display:inline-block;
+}
+.homebutton {
+  float:left;
+}
+.resumebutton {
+  float:right;
+}
