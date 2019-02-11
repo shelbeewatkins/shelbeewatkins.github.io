@@ -16,12 +16,13 @@
     <h1>Shelby Watkins</h1>
   </center>
   <center>
-    <div id="menu" class="menu" style="width:600px;">
+    <div id="menu" class="menu" style="width:700px;">
       <button class="homebutton" id="submithome" type="submit" value="Home">Home</button>
       <button class="resumebutton" id="submitresume" type="submit" value="Resume">Resume</button>
       <button class="personalbutton" id="submitpersonal" type="submit" value="About Me">About Me</button>
       <button class="contactbutton" id="submitcontact" type="submit" value="Contact Me">Contact Me</button>
-      <button class="portfoliobutton" id="submitportfolio" type="submit" value="My Portfolio">My Portfolio</button>
+      <button class="portfoliobutton" id="submitportfolio" type="submit" value="Portfolio">Portfolio</button>
+      <button class="blogbutton" id="submitblog" type="submit" value="Blog">Blog</button>
     </div>
     <a><img src="mysite.png" class="circlexa" alt="Picture of Me" style="max-width:100%;height:auto;"></a>
   </center>
@@ -41,6 +42,9 @@
     });
     $('#submitportfolio').on('click', function() {
       window.location.assign("portfolio.html");
+    });
+    $('#submitblog').on('click', function() {
+      window.location.assign("ezratakesoncollege.school.blog");
     });
   </script>
 </body>
