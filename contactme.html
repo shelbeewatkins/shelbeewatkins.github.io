@@ -32,15 +32,24 @@
       <div id="form-messages"></div>
       <div class="column">
         <form id="ajax-contact" method="post" action="mailer.php">
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email.." required>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
-          <input type="submit" value="Submit">
+          <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <div class="field">
+            <button type="submit">Send</button>
+          </div>
         </form>
       </div>
     </div>
@@ -179,7 +188,7 @@ button:active {
     });
   </script>
   <script src="jquery-2.1.0.min.js"></script>
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
