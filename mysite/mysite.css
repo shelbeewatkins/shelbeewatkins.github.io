@@ -1,0 +1,266 @@
+body {
+  background-color: rgb(228, 177, 205);
+  font-family: 'Cedarville Cursive';
+  font-size: 22px;
+}
+
+.circlexa {
+  border-radius: 50%;
+}
+
+.circlexa {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-top: 60px;
+}
+
+.circlexb {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+}
+
+/*.contactbutton {
+  text-align: right
+}
+
+.homebutton {
+  text-align: left;
+}
+
+.personalbutton {
+  text-align: right;
+}*/
+
+#submithome {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submithome:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+#submitresume {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submitresume:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+#submitpersonal {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submitpersonal:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+#submitresume {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submitresume:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+#submitcontact {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submitcontact:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+#submitportfolio {
+  background-color: rgb(128, 211, 170);
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#submitportfolio:hover {
+  border: none;
+  background: rgb(255, 200, 21);
+  box-shadow: 0px 0px 1px #777;
+}
+div button {
+  display: inline-block;
+}
+
+/*.homebutton {
+  float: left;
+}
+
+.resumebutton {
+  float: right;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}

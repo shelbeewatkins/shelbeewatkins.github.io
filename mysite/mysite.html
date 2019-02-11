@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <title>Shelby Watkins</title>
+  <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="mysite.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </link>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <center>
+    <h1>Shelby Watkins</h1>
+  </center>
+  <center>
+    <div id="menu" class="menu" style="width:600px;">
+      <button class="homebutton" id="submithome" type="submit" value="Home">Home</button>
+      <button class="resumebutton" id="submitresume" type="submit" value="Resume">Resume</button>
+      <button class="personalbutton" id="submitpersonal" type="submit" value="About Me">About Me</button>
+      <button class="contactbutton" id="submitcontact" type="submit" value="Contact Me">Contact Me</button>
+      <button class="portfoliobutton" id="submitportfolio" type="submit" value="My Portfolio">My Portfolio</button>
+    </div>
+    <a><img src="mysite.png" class="circlexa" alt="Picture of Me"></a>
+  </center>
+  <script type="text/javascript">
+    /*var hostname = window.location.hostname + "/"*/ ;
+    $('#submithome').on('click', function() {
+      window.location.assign("mysite.html");
+    });
+    $('#submitresume').on('click', function() {
+      window.location.assign("resume.xml");
+    });
+    $('#submitpersonal').on('click', function() {
+      window.location.assign("personal.html");
+    });
+    $('#submitcontact').on('click', function() {
+      window.location.assign("contactme.html");
+    });
+    $('#submitportfolio').on('click', function() {
+      window.location.assign("portfolio.html");
+    });
+  </script>
+</body>
+
+</html>

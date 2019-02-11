@@ -1,0 +1,107 @@
+name { 
+    font-size:150%; 
+    margin:0.5em; 
+    font-family: Verdana; 
+    display:block;
+    text-align: center;
+    font-weight: bolder;
+    } 
+address { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke; 
+    text-align: center;
+    } 
+contact { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke; 
+    text-align: center;
+    } 
+schoola { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke;
+    } 
+schoolb { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke;
+    } 
+schoolc { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke;
+    } 
+school {
+    text-align: left;
+}
+degree {
+    text-align: right;
+}
+yeargraduated {
+    text-align: right;
+}
+title { 
+    display:block; 
+    font-weight:bolder; 
+    text-align:center; 
+    font-size:30px; 
+    background-color: green; 
+    color: white; 
+    } 
+jobtitle { 
+    font-weight: bolder;
+    display: block;
+    padding: 2px 30px 2px 30px;
+    } 
+employer { 
+    font-weight:bold;
+    display: block;
+    padding: 2px 30px 2px 30px;
+    } 
+period { 
+    display: block;
+    padding: 2px 30px 2px 30px;
+    } 
+para{
+    padding: 2px 30px 2px 30px;
+    display: block;
+    }
+organization {
+    font-weight: bolder;
+    display: block;
+    padding: 2px 30px 2px 30px;
+}
+role {
+    padding: 2px 30px 2px 30px;
+    display: block;
+    font-style: oblique;
+    font-weight: bold;
+}
+period {
+    padding: 2px 30px 2px 30px;
+    display: block;
+}
+div{
+    margin-left:20px;
+   }
+div:first-child {
+    margin-left:0;
+   }
+span{
+    margin-left:10px;
+   }
+span:first-child {
+    margin-left:0;
+   }

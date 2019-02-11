@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="resume.css" ?>
+<rss version="2.0">
+<resume>
+    <header>
+        <name> Shelby Watkins </name>
+        <address>
+            <street> 1930 College Heights Rd APT 108 </street>
+            <city> Manhattan,</city>
+            <state> Kansas </state>
+            <zip> 66502 </zip>
+    </address>
+    <contact>
+        <phone> 404-771-7017 • </phone>
+        <email>shelbykwatkins@gmail.com • </email>
+        <email>swatkins@ksu.edu</email>
+    </contact>
+    </header>  
+ <history>
+    <education>
+   <schoola> 
+        <school>Dunwoody High School • </school>
+        <degree> High School Diploma • </degree>
+        <yeargraduated> 2018 </yeargraduated>
+   </schoola>
+    <schoolb>
+        <school>Georgia State University • </school>
+        <degree>Associate Degree | Dual Enrollment •</degree>
+        <yeargraduated>2018 </yeargraduated>
+    </schoolb>
+    <schoolc>
+        <school>Kansas State University • </school>
+        <degree> B.S in Medical Biochemistry • </degree>
+        <degree> Minor in Computer Science  </degree>
+        <yeargraduated> 2022 </yeargraduated>
+    </schoolc>
+        </education>
+    <span></span>
+  <work>
+  <job>
+      <jobtitle>Undergraduate Research Assistant</jobtitle>
+      <employer>College of Veterinary Medicine at Kansas State University</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>2018</year>
+	  </date>
+	</from>
+	<to>
+	  <present/>
+	</to>
+      </period>
+      <description>
+	<para>● Trained by Kansas State University CMG in rodent handling</para>
+<para>● Weighing and assessing the health of mice</para>
+<para>● Preparing agarose gels</para>
+<para>● Performing PCR, Ligation, Digestion, DNA gel extraction</para>
+<para>● Preparing and making bacteria cultures</para>
+<para>● Analyzing Southern and Western Blots</para>
+      </description>
+    </job>
+<span></span>
+    <job>
+      <jobtitle>Server</jobtitle>
+      <employer>J. Christopher's</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>July</month>
+	    <year>2016 to </year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>January</month>
+	    <year>2019</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>● Performed duties to open restaurant daily, and trained new staff</para>
+<para>● Protect establishment and patrons by adhering to sanitation, safety policies</para>
+<para>● Obtain revenues by totaling charges; issuing bill; accepting payment; returning change or credit card and signature slip to patrons</para>
+<para>● Promptly address customer service issues and refer customers to management when necessary</para>
+      </description>
+    </job>
+    <span></span>
+    <job>
+      <jobtitle>Veterinary Assistant</jobtitle>
+      <employer>Winters Chapel Animal Hospital</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>2016 to</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>January</month>
+	    <year>2019</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>● Maintained a high level of organization, following scheduled cleaning procedures</para>
+<para>● Provided medical care, distributing medication, and wound wraps</para>
+<para>● Directed new staff and trained them in dog care</para>
+<para>● Ensured clients and pets were comfortable in the hospital, and monitored hospitalized or surgical
+pets as allowed
+	</para>
+      </description>
+    </job>
+    <div></div>
+  </work>
+    <honors>
+        <topica>
+            <organization>Early Admission to the College of Veterinary Medicine at Kansas State University</organization>
+	        <period>
+	            <from>
+	                <date>
+	                    <month>August</month>
+	                    <year>2018</year>
+	                </date>
+	            </from>
+	            <to>
+	                <present/>
+	            </to>
+            </period>
+        </topica>
+        <span></span>
+        <topicb>
+            <organization>Kansas State University Honors Program</organization>
+            <role>Member</role>
+            <period>
+	            <from>
+	                <date>
+	                    <month>August</month>
+	                    <year>2018</year>
+	                </date>
+	            </from>
+	            <to>
+	                <present/>
+	            </to>
+            </period>
+        </topicb>
+        <span></span>
+        <topicc>
+            <organization>Dunwoody High School Gay-Straight Alliance</organization>
+            <role>President</role>
+            <period>
+	            <from>
+	                <date>
+	                    <month>August</month>
+	                    <year>2017 to</year>
+	                </date>
+	            </from>
+	            <to>
+	                <date>
+	                    <month>May</month>
+	                    <year>2018</year>
+	                </date>
+	            </to>
+             </period>
+        </topicc>
+        <span></span>
+        <topicd>
+            <organization>WTS Inc. Hippotherapy</organization>
+            <role>Volunteer</role>
+            <period>
+	            <from>
+	                <date>
+	                    <month>May</month>
+	                    <year>2017 to</year>
+	                </date>
+            	</from>
+	            <to>
+	            <date>
+	                    <month>September</month>
+	                    <year>2017</year>
+	                </date>
+	            </to>
+             </period>
+        </topicd>
+        <span></span>
+        <topice>
+            <organization>German Honors Society</organization>
+            <role>Member</role>
+            <period>
+	            <from>
+	                <date>
+	                    <month>September</month>
+	                    <year>2015 to</year>
+	                </date>
+	            </from>
+	            <to>
+	                <date>
+	                    <month>May</month>
+	                    <year>2018</year>
+	                </date>
+	            </to>
+            </period>
+        </topice>
+        <span></span>
+        <topicf>
+            <organization>AP Scholar Award</organization>
+            <period>
+	            <from>
+	                <date>
+	                    <month>June</month>
+	                    <year>2015</year>
+	                </date>
+	            </from>
+	            <to>
+	                <present/>
+	            </to>
+            </period>
+      </topicf>
+    </honors>
+</history>
+</resume>
+</rss>
