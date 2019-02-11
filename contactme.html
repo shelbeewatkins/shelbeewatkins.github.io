@@ -27,10 +27,12 @@
     </div>
     <div class="row">
       <div class="column">
-        <img src="contactme.png" class="circlexb" style="max-width:100%;height:auto;">
+        <img src="contactme.png" class="circlexb" style="width:100%">
       </div>
       <div class="column">
         <form action="/action_page.php">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
           <label for="lname">Last Name</label>
@@ -53,8 +55,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Add font awesome icons -->
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/shelbeewatkins/" class="fa fa-instagram"></a>
+  <a href="https://twitter.com/shelbeewatkins" class="fa fa-twitter"></a>
   <style>
     body {
       font-family: 'Cedarville Cursive';
@@ -64,7 +66,7 @@
   <script type="text/javascript">
     /*var hostname = window.location.hostname + "/"*/ ;
     $('#submithome').on('click', function() {
-      window.location.assign("index.html");
+      window.location.assign("mysite.html");
     });
     $('#submitresume').on('click', function() {
       window.location.assign("resume.xml");
