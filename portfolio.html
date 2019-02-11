@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shelby Watkins</title>
+  <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="mysite.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </link>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <center>
+    <div id="menu" class="menu" style="width:600px;">
+      <button class="homebutton" id="submithome" type="submit" value="Home">Home</button>
+      <button class="resumebutton" id="submitresume" type="submit" value="Resume">Resume</button>
+      <button class="personalbutton" id="submitpersonal" type="submit" value="About Me">About Me</button>
+      <button class="contactbutton" id="submitcontact" type="submit" value="Contact Me">Contact Me</button>
+      <button class="portfoliobutton" id="submitportfolio" type="submit" value="My Portfolio">My Portfolio</button>
+    </div>
+    <br>
+    <br>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DquV7bHHY9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </center>
+  <style>
+    body {
+      font-family: 'Cedarville Cursive';
+      font-size: 22px;
+    }
+  </style>
+  <script type="text/javascript">
+    /*var hostname = window.location.hostname + "/"*/ ;
+    $('#submithome').on('click', function() {
+      window.location.assign("mysite.html");
+    });
+    $('#submitresume').on('click', function() {
+      window.location.assign("resume.xml");
+    });
+    $('#submitpersonal').on('click', function() {
+      window.location.assign("personal.html");
+    });
+    $('#submitcontact').on('click', function() {
+      window.location.assign("contactme.html");
+    });
+    $('#submitportfolio').on('click', function() {
+      window.location.assign("portfolio.html");
+    });
+  </script>
+</body>
+
+</html
