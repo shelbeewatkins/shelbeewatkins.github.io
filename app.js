@@ -1,3 +1,6 @@
+
+
+//This is just me attempting to make the contact form work. It is a failed attempt, but that is not important for this assignment I guess.
 $(function() {
 
 	// Get the form.

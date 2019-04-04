@@ -1,4 +1,6 @@
 <?php
+/* IM JUST TRYING TO MAKE MY CONTACT PAGE WORK IM SORRY THAT I HAVE SO MANY FAILED ATTEMPTS
+On a side note, while grading if you know how to fix this, PLEASE TELL ME, THANKS.*/
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);

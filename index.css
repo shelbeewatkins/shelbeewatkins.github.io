@@ -1,8 +1,11 @@
 body {
-  background-color: rgb(228, 177, 205);
-  /*font-family: 'Cedarville Cursive';*/
-  font-size: 22px;
+  background-color: rgb(228, 177, 205); /*Yay! Making my background a pretty pink. */
+  font-family: 'Cedarville Cursive'; /*Originally all of my words were in this font, but you couldn't tell if it was bolded or emphasized with it so I changed it to helvetica */
+  font-size: 22px;  /*Default font size for paragraphs and what not */
 }
+/*I am just going to make one comment for the following code, because it would be very repetitive
+I changed the font to helvetica, and I changed the font size to increase from smallest to largest in the respective
+order of p, h3, h2, h1. And I changed the anchored link color to a purple. I think that is all that is required for this. */
 p {
   font: helvetica;
 }
@@ -17,12 +20,43 @@ h2 {
 h1 {
   font-size: 25px;
 }
-.circlexa {
-  border-radius: 50%;
-}
 a {
   color: #ff66cc;
 }
+td {
+border: 5px solid black;
+width: 100px;
+height: 100px;
+font-size: 80px;
+text-align: center;
+font-family: sans;
+}
+#turn {
+font-weight: bold;
+text-transform: capitalize;
+text-align: center;
+font-size: 16pt;
+background-color: #777777;
+width: 340px;
+}
+td:nth-child(1) {
+  border-left: none;
+}
+td:nth-child(3) {
+  border-right: none;
+}
+tr:nth-child(1) > td {
+  border-top: none;
+}
+tr:nth-child(3) > td {
+  border-bottom: none;
+}
+/* To make images circle and a certain size is everything below. I needed it a little different for the two different photos.
+Again some elements are for responsiveness, so it works for most devices well. */
+.circlexa {
+  border-radius: 50%;
+}
+
 
 .circlexa {
   border-top-left-radius: 50% 50%;
@@ -42,18 +76,8 @@ a {
   height: auto;
 }
 
-/*.contactbutton {
-  text-align: right
-}
-
-.homebutton {
-  text-align: left;
-}
-
-.personalbutton {
-  text-align: right;
-}*/
-
+/*  These are just making my buttons pretty, the right size and what not. The hover element
+just changes the color and shadow of the button when the user hovers over it. */
 #submithome {
   background-color: rgb(128, 211, 170);
   padding: .5em;
@@ -162,6 +186,7 @@ a {
   background: rgb(255, 200, 21);
   box-shadow: 0px 0px 1px #777;
 }
+/* Just a little more in how the buttons are seperated */
 div button {
   display: inline-block;
 }
@@ -177,8 +202,8 @@ div button {
 * {
   box-sizing: border-box;
 }
-
-/* Style inputs */
+/* The following is stuff I used other resources for to make my website more user frienly, responsive or pretty. None is relevant to this assignment. */
+/* Style inputs for the contact section */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;

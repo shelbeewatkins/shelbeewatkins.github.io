@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- This is a contact page, it is irrelevant to this assignment, but I do have instagram and twitter embedded at the bottom.
+As a note I did have help with those using W3 or one of those sites, but I have a youtube video embedded on my
+portfolio page that is completely my own work. This was not my first site with HTML and CSS, just the first one published online. -->
 <html>
 
 <head>
@@ -18,6 +21,7 @@
       <button class="personalbutton" id="submitpersonal" type="submit" value="About Me">About Me</button>
       <button class="contactbutton" id="submitcontact" type="submit" value="Contact Me">Contact Me</button>
       <button class="portfoliobutton" id="submitportfolio" type="submit" value="My Portfolio">My Portfolio</button>
+      <button class="blogbutton" id="submitblog" type="submit" value="Blog">Blog</button>
     </div>
   </center>
   <div class="row">
@@ -154,6 +158,9 @@ $(function()
     $('#submitportfolio').on('click', function() {
       window.location.assign("portfolio.html");
     });
+    $('#submitblog').on('click', function() {
+      window.location.href("https://ezratakesoncollege.school.blog/");
+    });
   </script>
   <script src="jquery-2.1.0.min.js"></script>
   <script src="app.js"></script>
@@ -173,7 +180,7 @@ body
 #form_container input[type='email'],
 #form_container textarea
 {
-	background: rgba(255,255,255,0.2);	
+	background: rgba(255,255,255,0.2);
 }
 
 	</style>
