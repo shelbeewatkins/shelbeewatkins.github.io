@@ -1,7 +1,8 @@
 body {
   background-color: rgb(228, 177, 205); /*Yay! Making my background a pretty pink. */
-  font-family: 'Cedarville Cursive'; /*Originally all of my words were in this font, but you couldn't tell if it was bolded or emphasized with it so I changed it to helvetica */
+  /*font-family: 'Cedarville Cursive'; Originally all of my words were in this font, but you couldn't tell if it was bolded or emphasized with it so I changed it to helvetica */
   font-size: 22px;  /*Default font size for paragraphs and what not */
+  font: helvetica;
 }
 /*I am just going to make one comment for the following code, because it would be very repetitive
 I changed the font to helvetica, and I changed the font size to increase from smallest to largest in the respective
@@ -19,6 +20,7 @@ h2 {
 }
 h1 {
   font-size: 25px;
+  font: helvetica
 }
 a {
   color: #ff66cc;
