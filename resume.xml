@@ -4,12 +4,6 @@
 <resume>
     <header>
         <name> Shelby Watkins </name>
-        <address>
-            <street> 1930 College Heights Rd APT 108 </street>
-            <city> Manhattan,</city>
-            <state> Kansas </state>
-            <zip> 66502 </zip>
-    </address>
     <contact>
         <phone> 404-771-7017 • </phone>
         <email>shelbykwatkins@gmail.com • </email>
@@ -30,13 +24,38 @@
     </schoolb>
     <schoolc>
         <school>Kansas State University • </school>
-        <degree> B.S in Medical Biochemistry • </degree>
-        <degree> Minor in Computer Science  </degree>
+        <degree> Elementary Education • </degree>
         <yeargraduated> 2022 </yeargraduated>
     </schoolc>
         </education>
     <span></span>
   <work>
+	  <job>
+      <jobtitle>Veterinary Assistant</jobtitle>
+      <employer>The Pet Vet</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>February</month>
+	    <year>2020 to</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>Present</month>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>● Maintained a high level of organization in scheduling appointments</para>
+<para>● Provided medical care, distributing medication, and wound wraps</para>
+<para>● Performed intake of new clients</para>
+<para>● Ensured clients and pets were comfortable in the hospital, and monitored hospitalized or surgical
+pets as allowed
+	</para>
+      </description>
+    </job>
+	    <span></span>
   <job>
       <jobtitle>Undergraduate Research Assistant</jobtitle>
       <employer>College of Veterinary Medicine at Kansas State University</employer>
@@ -44,11 +63,12 @@
 	<from>
 	  <date>
 	    <month>September</month>
-	    <year>2018</year>
+	    <year>2018 to</year>
 	  </date>
 	</from>
 	<to>
-	  <present/>
+	  <month>January</month>
+	    <year>2020</year>
 	</to>
       </period>
       <description>
@@ -130,22 +150,8 @@ pets as allowed
             </period>
         </topica>
         <span></span>
-        <topicb>
-            <organization>Kansas State University Honors Program</organization>
-            <role>Member</role>
-            <period>
-	            <from>
-	                <date>
-	                    <month>August</month>
-	                    <year>2018</year>
-	                </date>
-	            </from>
-	            <to>
-	                <present/>
-	            </to>
-            </period>
-        </topicb>
-        <span></span>
+        
+      
         <topicc>
             <organization>Dunwoody High School Gay-Straight Alliance</organization>
             <role>President</role>
